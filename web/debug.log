@@ -1,0 +1,17 @@
+[0712/021639.799:ERROR:process_info.cc(359)] UncheckedAllocate
+[0712/102051.565:ERROR:file_io.cc(89)] ReadExactly: expected 11200, observed 0
+[0712/102051.565:ERROR:crash_report_database_win.cc(445)] failed to read records
+[0712/112143.084:ERROR:file_io.cc(89)] ReadExactly: expected 11200, observed 0
+[0712/112143.085:ERROR:crash_report_database_win.cc(445)] failed to read records
+[0712/113250.226:ERROR:file_io.cc(89)] ReadExactly: expected 11200, observed 0
+[0712/113250.229:ERROR:crash_report_database_win.cc(445)] failed to read records
+[0712/132748.491:ERROR:crashpad_client_win.cc(505)] CreateProcess: The paging file is too small for this operation to complete. (0x5AF)
+[0712/142518.861:ERROR:process_info.cc(359)] UncheckedAllocate
+[0712/142535.548:ERROR:process_info.cc(359)] UncheckedAllocate
+[0712/142544.919:ERROR:process_info.cc(359)] UncheckedAllocate
+[0712/142550.888:ERROR:process_info.cc(359)] UncheckedAllocate
+[0712/142617.679:ERROR:process_info.cc(359)] UncheckedAllocate
+[0712/143147.847:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0712/143147.902:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0712/143147.906:ERROR:process_info.cc(545)] ReadProcessData failed
+[0712/151120.511:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
